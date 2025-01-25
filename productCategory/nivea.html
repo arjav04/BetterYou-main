@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BetterYou</title>
+    <link rel="icon" href="../images/med-logo.png">
+    <link rel="stylesheet" href="categorycss.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="navigation">
+        <div id="logo">
+            <h1>Better<i class="fas fa-stethoscope"></i></h1>
+        </div>
+        <div id="search">
+            <input type="search" placeholder="Search for medicine...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div id="login">
+            <a href="../addToCart.html"><i class="fas fa-shopping-bag"></i>
+                <div id="cart-len">0</div></a>
+            <h3><i class="fas fa-user-circle"></i>Login</h3>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <section class="main">
+        <header>
+            <h1>Nivea</h1>
+        </header>
+
+        <div class="menu-toggle"></div>
+        <div class="filter">
+            <ul class="indicator">
+                <li data-filter="all" class="active">
+                    <a href="#">All</a>
+                </li>
+                <li data-filter="Cream">
+                    <a href="#">Cream</a>
+                </li>
+                <li data-filter="Facewash">
+                    <a href="#">FaceWash</a>
+                </li>
+                <li data-filter="Spray">
+                    <a href="#">Spray</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="card-section">
+            <div class="card-layout" data-category="Cream">
+                <h5>20% off</h5>
+                <div class="product-image">
+                    <a href=""><img src="../images/ayurvedic/nivea/cream/287202-original.png" alt=""></a>
+                </div>
+                <h4 class="produt-name">Body Lotion- Nourishing Body Milk (Very Dry Skin)</h4>
+                <h3 class="price">Rs.319 <del>Rs.399</del></h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout" data-category="Spray">
+                <h5>11% off</h5>
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/spray/120-fresh-rose-care-female-deodorizer-deodorant-spray-nivea-original-imafeph7drezvzyf.jpeg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Fresh Rose & Care Female Deodorizer Deodorant Spray - For Women (120 ml)</h4>
+                <h3 class="price ">Rs.177 <del>Rs.199</del></h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Cream">
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/cream/223079-original.png" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Soft - Light Moisturizing Cream</h4>
+                <h3 class="price ">Rs.279</h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Facewash">
+                <h5>14% off</h5>
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/facewash/363289-original.png" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Men Face Wash, Deep Impact Intense Clean, for Beard & Face, with Black Carbon, 100 g</h4>
+                <h3 class="price ">Rs. 160 <del>Rs.175</del></h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Facewash">
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/facewash/nivea-milk-delights-face-wash-caring-rosewater-for-sensitive-skin-100-ml_3_display_1594637629_89741a74.jpg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Face Wash for Normal Skin, Milk Delights Saffron, 100 ml</h4>
+                <h3 class="price ">Rs.165</h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Spray">
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/spray/120-nv926-nivea-men-original-imafyhvhpczafaux.jpeg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Fresh Protect Deodorizer Deodorant Spray - For Men (120 ml)</h4>
+                <h3 class="price ">Rs.175</h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Cream">
+                <div class="product-image">
+                    <a href=" "><img src="../images/ayurvedic/nivea/cream/412d5ae4005808837205new.jpg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Body Lotion- Shea Smooth Milk (Dry Skin)</h4>
+                <h3 class="price ">Rs.300</h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout" data-category="Facewash">
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/facewash/51iZDesybqL._SL1000_.jpg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Men Face Wash, Dark Spot Reduction, 100g</h4>
+                <h3 class="price ">Rs.139</h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Cream">
+                <h5>10% off</h5>
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/cream/309f28e4005808366620-1.jpg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Body Lotion, Extra Whitening Even Tone, 400ml</h4>
+                <h3 class="price ">Rs.180 <del>Rs.200</del> </h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Spray">
+                <h5>25% off</h5>
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/spray/150-pearl-beauty-deodorant-spray-nivea-men-women-original-imafvuvccghuftv6.jpeg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Pearl & Beauty Deodorant Spray - For Men & Women (150 ml)</h4>
+                <h3 class="price ">Rs.149 <del>Rs. 199</del></h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout" data-category="Facewash">
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/facewash/511haDzO3fL._SX679_.jpg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Women Refreshing Face Wash, with Vitamin E, 150 ml</h4>
+                <h3 class="price ">Rs.175</h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Cream">
+                <h5>19% off</h5>
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/cream/extra-whitening-75-ml-jpg-500x500.jpg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Body Lotion, Extra Whitening Cell Repair, 400ml</h4>
+                <h3 class="price ">Rs.314 <del>Rs.390</del></h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Spray">
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/spray/150-fresh-comfort-deodorant-spray-nivea-women-original-imafvuvcyt3dhkrm.jpeg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Fresh Comfort Clean Scent Deodorant Spray - For Women (150 ml)</h4>
+                <h3 class="price ">Rs.169</h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Cream">
+                <h5>5% off</h5>
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/cream/nivea-cream-500x500.jpg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Creme, All Season Multi - purpose Cream, 60ml</h4>
+                <h3 class="price ">Rs.94 <del>Rs.99</del></h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout" data-category="Facewash">
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/facewash/51zjPbW-wbL._SY355_.jpg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Women Face Wash, Skin Refining Scrub with Vitamin E, 150 ml</h4>
+                <h3 class="price ">Rs.199</h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Spray">
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/spray/150-fresh-flower-deodorant-for-women-deodorant-spray-nivea-women-original-imafvuvchp65gfbg.jpeg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">NIVEA Fresh Flower Deodorant for Women Deodorant Spray - For Women (150 ml)</h4>
+                <h3 class="price ">Rs.157</h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Facewash">
+                <h5>20% off</h5>
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/facewash/Nivea-Purifying-Mixed-To-Oily-Skin-Face-Wash-1565428905-10029364-1.jpg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Women Purifying Face Wash, for Oily Skin, 150 ml</h4>
+                <h3 class="price ">Rs.140 <del>Rs.175</del></h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Cream">
+                <h5>26% off</h5>
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/cream/287211-original.png" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Body Lotion, Aloe Hydration with Aloe Vera, 400ml</h4>
+                <h3 class="price ">Rs.268 <del>Rs.360</del></h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Cream">
+
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/cream/Nivea Cream Soft Sachet 8ml A.jpg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Cream soft Sachet, 8ml</h4>
+                <h3 class="price ">Rs.10</h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Spray">
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/spray/150-protect-care-deodorant-spray-nivea-men-men-original-imafvuvc5twhgeq2.jpeg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">NIVEA Protect & Care Deodorant Spray - For Men (150 ml)</h4>
+                <h3 class="price ">Rs.139</h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Cream">
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/cream/nivea-body-lotion-express-hydration-normal-skin-400-ml-316853_l.jpg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Body Lotion, Express Hydration for Fast absorption, 400ml</h4>
+                <h3 class="price ">Rs.260</h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Facewash">
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/facewash/nivea-men-oil-control-face-wash-500x500.png" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea For Men Advanced Whitening Oil Control Face Wash, 50ml</h4>
+                <h3 class="price ">Rs.139</h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Cream">
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/cream/nivea-creme-500x500.png" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Creme, All Season Multi - purpose Cream, 200ml</h4>
+                <h3 class="price ">Rs.240</h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Spray">
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/spray/150-protect-care-deodorant-spray-nivea-women-original-imafvuvcezzhhkzz.jpeg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">NIVEA Protect & Care Deodorant Spray - For Women (150 ml)</h4>
+                <h3 class="price ">Rs.140</h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Facewash">
+                <h5>10% off</h5>
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/facewash/download.jfif" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">Nivea Women Face Wash, Total Face Cleanup, 100ml</h4>
+                <h3 class="price ">Rs.202 <del>Rs.225</del></h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+            <div class="card-layout " data-category="Spray">
+                <div class="product-image ">
+                    <a href=" "><img src="../images/ayurvedic/nivea/spray/450-men-fresh-power-boost-deodorant-spray-150ml-each-pack-of-3-original-imaftvxrmggscrss.jpeg" alt=" "></a>
+                </div>
+                <h4 class="produt-name ">NIVEA Men Fresh Power Boost Deodorant Spray 150ML</h4>
+                <h3 class="price ">Rs.150</h3>
+                <button class="add-to-cart ">Add To Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</body>
+
+</html>
