@@ -8,14 +8,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/nidhijaincs18/BetterYou.git"
+        "url": "git+https://github.com/arjavj04/BetterYou.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/nidhijaincs18/BetterYou/issues"
+        "url": "https://github.com/arjavj04/BetterYou/issues"
     },
-    "homepage": "https://github.com/nidhijaincs18/BetterYou#readme",
+    "homepage": "https://github.com/arjavj04/BetterYou#readme",
     "dependencies": {
         "body-parser": "^1.19.0",
         "ejs": "^3.1.6",
